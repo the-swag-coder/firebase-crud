@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "../src/assets/font-awesome/css/font-awesome.min.css";
+
+body {
+  background: #383a3f;
+}
