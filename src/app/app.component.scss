@@ -1,0 +1,46 @@
+.container-fluid {
+  padding: 50px 100px;
+
+  .card {
+    border-radius: 5px;
+    padding: 10px 20px;
+
+    .heading {
+      font-size: 20px;
+    }
+    .sub-heading {
+      font-size: 15px;
+    }
+    .icon {
+      display: none;
+    }
+
+    &:hover {
+      .icon {
+        position: absolute;
+        top: 35%;
+        right: 5%;
+        display: block;
+
+        i {
+          padding: 0 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.error-border {
+  border: 1px solid crimson;
+}
